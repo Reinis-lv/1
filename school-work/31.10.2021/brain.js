@@ -3,12 +3,12 @@
 let c = 0; let cmn = ["light mode on","dark mode on"];
 const cb = document.getElementById("color-mode");
 const b = document.getElementById("color"); const nn = "href";
-const nm = ["/school-work/31.10.2021/style-white.css","/school-work/31.10.2021/style-dark.css"];
+const nm = ["style-white.css","style-dark.css"];
 
 const w = "white"; const d = "dark"; const con = "color"; 
 
 
-const dd = "expires=Thu, 18 Dec 2021 12:00:00 UTC; path=/school-work/31.10.2021;";
+const dd = "expires=Thu, 18 Dec 2021 12:00:00 UTC; path=/;";
 const a = con+"="+w+"; "+dd; const s = con+"="+d+"; "+dd;
 
 function sty() {
