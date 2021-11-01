@@ -42,4 +42,8 @@ function setcolor() {
       b.setAttribute(nn,nm[0]);
       cb.innerHTML = cmn[0];
       c = 0; break;
+    default:
+      b.setAttribute(nn,nm[0]);
+      cb.innerHTML = cmn[0];
+      c = 0; break;
 } }   
