@@ -1,0 +1,19 @@
+@charset "UTF-8";
+*{
+  color:beige;
+}
+body {
+  background-color:black;
+}
+.header, .footer {
+  background-color: darkred;
+}
+.button {
+  color: white;
+}
+.button:hover {
+  color: black;
+  background-color: lightsalmon;
+}
+
+

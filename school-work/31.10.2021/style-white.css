@@ -1,0 +1,19 @@
+@charset "UTF-8";
+*{
+  color:black;
+}
+
+.header {
+  background-color: beige;
+}
+.button {
+  color: black;
+}
+.button:hover {
+  color: purple;
+}
+.footer {
+  background-color: beige;
+}
+
+
