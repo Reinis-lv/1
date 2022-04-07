@@ -8,7 +8,7 @@ const nm = ["style-white.css","style-dark.css"];
 const w = "white"; const d = "dark"; const con = "color"; 
 
 
-const dd = "expires=Thu, 18 Dec 2021 12:00:00 UTC; path=/;";
+const dd = "expires=Thu; path=/;";
 const a = con+"="+w+"; "+dd; const s = con+"="+d+"; "+dd;
 
 function sty() {
@@ -16,11 +16,11 @@ function sty() {
     case 0: 
       b.setAttribute(nn, nm[1]);
       cb.innerHTML = cmn[1];
-      document.cookie = s; c++; break;
+      document.cookie = s; c=1; break;
     case 1:
       b.setAttribute(nn, nm[0]);
       cb.innerHTML = cmn[0];
-      document.cookie = a; c--; break;  
+      document.cookie = a; c=0; break;  
 } }
 function getCookie(cname) {
   let dc = decodeURIComponent(document.cookie);
