@@ -7,7 +7,7 @@ const nm = ["style-white.css","style-dark.css"];
 
 const w = "white"; const d = "dark"; const con = "color"; 
 
-let xDate = new date(date.now() + (7 * 24 * 3600 * 1000));
+let xDate = new Date( Date.now() + (7 * 24 * 3600 * 1000));
 const dd = `expires=${xdate}; path=/;`;
 
 const a = con+"="+w+"; "+dd; const s = con+"="+d+"; "+dd;
